@@ -2,51 +2,65 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portifolio</title>
-    <style>
-        
-        body {
-            background-color: rgb(240, 208, 166);
-        }
-
-        p {
-            font-size: large;
-        }
-    </style>
 
 </head>
 <body>
-    <h1>Olá, Mundo!</h1>
-    <img src="https://media.licdn.com/dms/image/v2/D4E35AQEthOuAI8q3ew/profile-framedphoto-shrink_400_400/B4EZraCXJ3GYAc-/0/1764594644082?e=1765746000&v=beta&t=HYd9FpbyEpJg2mjNQloaXZyjo-ELElOZRZXRQw1Gsg0" alt="It's me!" width="350px">
-    <h2>Quem sou eu?</h2>
-    <p>Antes de tudo, permita-me apresentar-se... <br> Eu me chamo <strong>Luiz Gustavo Ferreira da Silva</strong>, tenho 19 anos e atualmente 
-        resido na cidade de Camocim de São Félix-PE <br>, e estou cursando <strong>Ciências da Computação</strong> na Unifavip-Wyden em Caruaru-PE, 3 Período.
-        No início de tudo, tudo que envolvia <br> a área de tecnologia me encantava os olhos, acredito que desde pequeno que tenhos os 
-        mesmos sentimentos até os dias atuais e, <br> tendo em vista essa minha paixão pela área, não hesitei em ingressar.
-        Os primeiros passos foram aparentemente "tranquilos", contudo, <br> com o passar do tempo vi que existiam vários e vários ramos da programação,
-        diferentes linguagens de programação e etc. Mas após <br> um certo tempo tudo se estruturou como deveria de ser e aqui estou mostrando o meu
-        primeiro portifólio! 
+    <div><h1 class="hello-world">Olá, Mundo!</h1></div>
+    <div><img src="IMG_8074.jpg" class="photo" alt="It's me!" width="350px"></div>
+
+    <div>
+        <ul class="details">
+            <li>Graduando em Ciências da Computação (Unifavip Wyden - 3 período);</li><br>
+            <li>Desenvolvedor full-stack em formação;</li><br>
+            <li>Conhecimento avançado em Python;</li><br>
+            <li>POO (Programação Orientada a Objetos);</li><br>
+            <li>Conhecimento da língua inglesa (Inglês americano) nível avançado/nativo;</li><br>
+            <li>Professor de Inglês e Espanhol;</li><br>
+        </ul>
+    </div>
+
+    <div><h1 class="who-am-i">Quem sou eu?</h1></div>
+
+    <div>
+    <p class= "description">Antes de tudo, permita-me apresentar-se... <br><br> Eu me chamo <strong>Luiz Gustavo Ferreira da Silva</strong>, tenho 19 anos e atualmente 
+            resido na cidade de Camocim de São Félix-PE <br> e estou cursando <strong>Ciências da Computação</strong> na Unifavip-Wyden em Caruaru-PE, 3 Período.
+            No início de tudo, tudo que envolvia <br> a área de tecnologia me encantava os olhos, acredito que desde pequeno que tenhos os 
+            mesmos sentimentos até os dias atuais e, <br> tendo em vista essa minha paixão pela área, não hesitei em ingressar.
+            Os primeiros passos foram aparentemente "tranquilos", contudo, <br> com o passar do tempo vi que existiam vários e vários ramos da programação,
+            diferentes linguagens de programação e etc. Mas após <br> um certo tempo tudo se estruturou como deveria de ser e aqui estou mostrando o meu
+            primeiro portifólio! 
     </p>
     <br>
-    <p>Assim como qualquer outro portifólio existente pelo mundo que possui competências e habilidades, o meu não seria uma exceção, correto?</p>
-    <p>Segue abaixo o meu currículo acadêmico, desde as minhas competências e habilidades até mesmo experiências que tiver no decorrer na minha carreira
+    <p class="before-abilities">
+        Assim como qualquer outro portifólio existente pelo mundo que possui competências e habilidades, o meu não seria uma exceção, correto?<br><br>
+        -Segue abaixo o meu currículo acadêmico, desde as minhas competências e habilidades até mesmo <br>experiências que tive no decorrer na minha carreira
         como um novo integrante da tecnologia:
     </p>
-    <ul>
-        <li>Conhecimento avançado em Python, entendendo conceitos como <strong>Tipagem de dados, Programação Orientada a Objetos (POO), pytest e manipulação de ambiente virtual (venv) em Python</strong>;</li>
-        <li>Conhecimento básico/intermediário em linguagem <strong>C</strong>;</li>
-        <li>Experiências com <strong>computação em nuvem e segurança da informação</strong> (conhecimento intermediário/avançado);</li>
-        <li><strong>Conclusão de curso de inglês</strong> na minha cidade (Wiseway English Course), duração de 7 a 8 anos e tendo habilidade de escrita, oratória e auditiva nível avançado/nativo;</li>
-        <li>Atualmente, estudando arduamente a área de <strong>Desenvolvimento web</strong>, tendo aprendido os fundamentos, onde já vi conceito de internet, servidor, protoclos e aplicação cliente-servidor;</li>
-        <li>Conhecimento básico em <strong>HTML</strong> (também aprendendo dentro de Desenvolvimento web e irei aprender mais fundamentos de uma aplicação web, como <strong>CSS</strong>, <strong>front-end com Javascript</strong>, <strong>back-end com Python e Java</strong>, dentre outros);</li>
+        <ul class="abilities">
+        <li>Conhecimento avançado em Python, entendendo conceitos como <strong>Tipagem de dados, Programação Orientada a Objetos (POO), pytest e manipulação de ambiente virtual (venv) em Python</strong>;</li><br>
+        <li>Conhecimento básico/intermediário em linguagem <strong>C</strong>;</li><br>
+        <li>Experiências com <strong>computação em nuvem e segurança da informação</strong> (conhecimento intermediário/avançado);</li><br>
+        <li><strong>Conclusão de curso de inglês</strong> na minha cidade (Wiseway English Course), duração de 7 a 8 anos e tendo habilidade de escrita, oratória e auditiva nível avançado/nativo;</li><br>
+        <li>Atualmente, estudando arduamente a área de <strong>Desenvolvimento web</strong>, tendo aprendido os fundamentos, onde já vi conceito de internet, servidor, protoclos e aplicação cliente-servidor;</li><br>
+        <li>Conhecimento básico em <strong>HTML</strong> (também aprendendo dentro de Desenvolvimento web e irei aprender mais fundamentos de uma aplicação web, como <strong>CSS</strong>, <strong>front-end com Javascript</strong>, <strong>back-end com Python e Java</strong>, dentre outros);</li><br>
+        </ul>
+        <br>
+    </div>
+    <div>
+        <h2 class="more-details">Ah! mais um detalhe...</h2>
+            <p class="teacher">Lembra que nas minhas habilidades havia colocado <strong>Conclusão de curso de inglês?</strong> Pois bem, já tive experiências atuando como professor de <br> inglês e espanhol também! Em meados do fim de setembro, recebi a oportunidade de um contrato como professor de inglês, ensinando de 1 a 9 ano.
+            Após certo tempo e devido a boa competência, entrei em uma reunião com o professor para ingressar <br>como professor de espanhol, dando aula para turmas de 6 a 9 ano, totalizando 13 turmas.
+            No geral, mesmo sendo um pouco difícil no início de lidar com a grande quantidade de alunos e turmas, no fim acabou sendo <br> algo bastante benéfico, tanto para vida pessoal, se tornando uma pessoa melhor para a sociedade como também para meu portifólio.</p>
+        <br>
+    <ul class="more-informations">
+        <li>Para mais informações sobre meu currículo (<a id="linkedin">linkedin)</a>, acesse <a href="https://www.linkedin.com/in/luiz-gustavo-21b6b3353/" target="_blank" rel="noopener noreferrer">aqui.</a></li>
+        <li>Para perfil acadêmico no Instagram, acesse aqui.</li><br><br><br>
     </ul>
-    <br>
-    <h2>Ah! mais um detalhe...</h2>
-    <p>Lembra que nas minhas habilidades havia colocado <strong>Conclusão de curso de inglês?</strong> Pois bem, já tive experiências atuando como professor de inglês e espanhol também! Em meados do fim de setembro, recebi a oportunidade de um contrato como professor de inglês, ensinando de 1 a 9 ano.</p>
-    <p>Após certo tempo e devido a boa competência, entrei em uma reunião com o professor para ingressar como professor de espanhol, dandos aula para turmas de 6 a 9 ano, totalizando 13 turmas.</p>
-    <p>No geral, mesmo sendo um pouco difícil no início de lidar com a grande quantidade de alunos e turmas, no fim acabou sendo algo bastante benéfico, tanto para vida pessoal, se tornando uma pessoa melhor para a sociedade como também para meu portifólio.</p>
+    <p>
+    </div>
 
-    <p>Para mais informações sobre meu currículo, acesse <a href="https://www.linkedin.com/in/luiz-gustavo-21b6b3353/" target="_blank" rel="noopener noreferrer">aqui.</a></p>
 </body>
 </html>

@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(240, 208, 166);
+}
+
+
+#linkedin {
+    font-style: italic;
+}
+
+div h1.hello-world{
+    position: absolute;
+    left: 45px;
+    top: 25px;
+}
+
+.photo{
+    position: absolute;
+    border: 4px solid black;
+    padding: 2px;
+    display:block;
+    left: 45px;
+    top: 110px
+}
+
+div ul.details{
+    position: absolute;
+    left: 440px;
+    top: 90px;
+    font-size: 22px;
+    border: 10px solid black;
+    border-style: double; 
+    width: 30%;  
+}
+
+div h1.who-am-i{
+    position: absolute;
+    border: 4px solid black;
+    display: inline-block;
+    padding: 3px;
+    top: 580px;
+    left: 45px;
+}
+
+
+div p.description{
+    position: absolute;
+    top: 650px;
+    left: 45px;
+    font-size: 19px;
+    width: 80%;
+
+}
+
+div p.before-abilities{
+    position: absolute;
+    top: 850px;
+    left: 45px;
+    font-size: 18px;
+    width: 80%;
+}
+div ul.abilities{
+    position: absolute;
+    top:970px;
+    font-size: 20px;
+    left: 25px;
+    width: 75%;
+}
+
+
+div h2.more-details{
+    position: absolute;
+    top: 1350px;
+    left: 45px;
+}
+
+div p.teacher{
+    position: absolute;
+    top: 1400px;
+    left: 45px;
+    font-size: 19px;
+    width: 80%;
+}
+
+div ul.more-informations{
+    position: absolute;
+    top:1570px;
+    left: 20px;
+    font-size: 20px;
+    width: 80%;
+}
+
