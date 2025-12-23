@@ -2,9 +2,22 @@ body {
     background-color: rgb(240, 208, 166);
 }
 
+#college:hover{
+    color: blue;
+    background-color: white;
+}
 
 #linkedin {
     font-style: italic;
+}
+
+#instagram {
+    font-style: italic;
+}
+
+.linkedin-instagram:hover{
+    color: blue;
+    background-color: white;
 }
 
 div h1.hello-world{
