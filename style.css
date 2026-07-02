@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Satoshi";
+    src: url("./assets/fonts/Satoshi-Bold.otf") format("opentype");
+    font-weight: 900;
+}
+
+
 body {
     background-color: rgb(22, 22, 22);
     background-color: #161616;
@@ -14,7 +21,7 @@ body {
 
 p, a {
     color: aliceblue;
-    font-family:monospace;
+    font-family: "Satoshi", sans-serif;
     font-size: 15px;
 }
 
@@ -22,8 +29,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 15px;
-
 }
 .nav-image {
     width: 35px;
@@ -56,14 +61,114 @@ nav {
     border-radius: 5px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-right: 10px;
     color: black;
-    font-size: 17px;
+    font-size: 16px;
     text-decoration: none;
 }
 
+.main-content {
+    margin-top: 20px;
+    margin-left: 9%;
+}
+
+.main-content p,section {
+    color: aliceblue;
+}
+
+#hello {
+    border: 2px solid rgb(104, 100, 100);
+    border-radius: 18px;
+    width: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    background-color: rgb(43, 42, 42);
+}
+
+#hello p {
+    font-size: 12px;
+    font-family: "Satoshi", sans-serif;
+    font-weight: 900;
+    align-items: center;
+}
+
+#hand {
+    width: 18px;
+    height:18px;
+    padding-right: 10px;
+    padding-top: 13px;
+}
+
+.my-name {  
+    display: flex;
+    gap: 15px;
+    font-family: "Satoshi", sans-serif;
+    margin-bottom: 0;
+}
+
+#gold {
+    color: rgb(189, 156, 67);
+}
+
+.my-name span {
+    font-size: 65px;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
 
 
+.about-me {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 35%;
+    font-size: 13px;
+    border-left: 2px solid rgb(189, 156, 67);
+    padding-left: 10px;
+    transition: font-size 0.2s ease;
+    font-family: "Satoshi", sans-serif;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
 
+#h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 22px;
+    transition: font-size 0.2s ease;
+    font-family: "Satoshi", sans-serif;
+    width: fit-content;
+}
+
+#projects {
+    margin-right: 15px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(189, 156, 67);
+    border-radius: 7px;
+    display: inline-flex;
+    align-items: center;
+    font-family: "Satoshi", sans-serif;
+}
+
+#cv {
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 20px;
+    border-radius: 7px;
+    background-color: #161616;
+    color: aliceblue;
+    display: inline-flex;
+    align-items: center;
+    font-family: "Satoshi", sans-serif;
+}
+
+.rocket-and-download {
+    width: 30px;
+    padding-right: 10px;
+}
