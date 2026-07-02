@@ -70,7 +70,7 @@ nav {
 }
 
 .main-content {
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 9%;
 }
 
@@ -114,7 +114,7 @@ nav {
 }
 
 .my-name span {
-    font-size: 65px;
+    font-size: 50px;
     display: flex;
     gap: 8px;
     margin-bottom: 0;
@@ -125,8 +125,8 @@ nav {
 .about-me {
     display: flex;
     flex-wrap: nowrap;
-    width: 35%;
-    font-size: 13px;
+    width: 30%;
+    font-size: 12px;
     border-left: 2px solid rgb(189, 156, 67);
     padding-left: 10px;
     transition: font-size 0.2s ease;
@@ -138,7 +138,7 @@ nav {
 #h3 {
     margin-top: 0;
     margin-bottom: 10px;
-    font-size: 22px;
+    font-size: 18px;
     transition: font-size 0.2s ease;
     font-family: "Satoshi", sans-serif;
     width: fit-content;
@@ -146,7 +146,6 @@ nav {
 
 #projects {
     margin-right: 15px;
-    padding: 5px;
     padding-left: 15px;
     padding-right: 15px;
     background-color: rgb(189, 156, 67);
@@ -157,7 +156,6 @@ nav {
 }
 
 #cv {
-    padding: 6px;
     padding-left: 15px;
     padding-right: 20px;
     border-radius: 7px;
@@ -169,6 +167,91 @@ nav {
 }
 
 .rocket-and-download {
-    width: 30px;
+    width: 25px;
     padding-right: 10px;
+}
+
+.cards-container {
+    margin-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid rgb(71, 71, 71);
+    border-radius: 10px;
+    box-shadow: 8px 12px 24px rgba(189, 156, 67, 0.2);
+    width: 45%;
+    padding-bottom: 2px;
+}
+
+.cards-sub-container {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.span-abilities {
+    display: flex;
+    font-family: "Satoshi", sans-serif;
+    font-size: 14px;
+    padding: 2px;
+    padding-left: 10px;
+    color: rgb(189, 156, 67);
+}
+
+.card {
+    align-items: center;
+    display: flex;
+    border: 2px solid rgb(34, 34, 34);
+    border-radius: 15px;
+    width: fit-content;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 4px;
+    font-family: "Satoshi", sans-serif;
+    font-size: 13px;
+    background-color: rgb(34, 34, 34);
+    flex: 1;
+    justify-content: center;
+}
+
+.card-image {
+    width: 30px;
+    padding-right: 8px;
+}
+
+.language-card{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    flex: 1;
+    margin-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding-right: 10px ;
+    justify-content: flex-start;
+}
+
+.language-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.language-info h4{
+    margin: 0;
+    font-size: 15px;
+}
+
+.language-info p{
+    margin: 0;
+    padding-top: 3px;
+    font-size: 12px;
+}
+
+.cards-sub-container .card:last-child .card-image{
+    width: 50px;
+    height: 30px;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
