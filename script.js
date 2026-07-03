@@ -15,19 +15,19 @@ const mouseOut = (event) => {
 }
 
 const mouseOnForH3 = (event) => {
-    event.target.style.fontSize = "20px";
+    event.target.style.fontSize = "22px";
 }
 
 const mouseOutForH3 = (event) => {
-    event.target.style.fontSize = "18px";
+    event.target.style.fontSize = "20px";
 }
 
 const mouseOnAboutMe = (event) => {
-    event.target.style.fontSize = "14px";
+    event.target.style.fontSize = "15px";
 }
 
 const mouseOutAboutMe = (event) => {
-    event.target.style.fontSize = "12px";
+    event.target.style.fontSize = "13px";
 }
 
 for (let index = 0; index < navImage.length; index += 1) {
