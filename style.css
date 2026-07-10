@@ -173,6 +173,8 @@ nav {
 }
 
 .rocket-and-download {
+    padding-top: 5px;
+    padding-bottom: 5px;
     width: 25px;
     padding-right: 10px;
 }
@@ -184,7 +186,7 @@ nav {
     border: 2px solid rgb(71, 71, 71);
     border-radius: 10px;
     box-shadow: 8px 12px 24px rgba(189, 156, 67, 0.2);
-    width:70%;
+    width: 70%;
     max-width:680px;
     padding-bottom: 0;
 }
@@ -538,5 +540,165 @@ footer .footer-card {
     .footer-card {
         width: 18px;
     }
+
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+    nav {
+        padding: 3px;
+    }
+
+    #my-logo-image {
+        width: 40px;
+    }
+
+    .nav-image {
+        width: 25px;
+    }
+
+    nav p {
+        font-size: 13px;
+    }
+
+    #contact {
+        padding: 8px;
+        font-size: 13px;
+    }
+
+    #hello {
+        width: fit-content;
+        align-content: center;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #hello p {
+        font-size: 10px;
+    }
+
+    #hand {
+        width: 15px;
+        height: 15px;
+        padding: 0;
+        padding-right: 5px;
+    }
+
+    .my-name span, #gold{
+        font-size: 40px;
+    }
+
+    #h3 {
+        font-size: 13px;
+        transition: font-size 0.2s ease;
+    }
+
+    .about-me {
+        width: 60%;
+        font-size: 11px;
+    }
+
+    #projects, #cv {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .rocket-and-download {
+        width: 18px;
+        padding: 0;
+        padding-right: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    button span {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .cards-container {
+        margin-top: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 2px solid rgb(71, 71, 71);
+        border-radius: 10px;
+        box-shadow: 8px 12px 24px rgba(189, 156, 67, 0.2);
+        width: 105%;
+        max-width:680px;
+        padding-bottom: 0;
+    }
+
+    footer {
+        padding: 7px;
+        padding-bottom: 0;
+        display: flex;
+        font-family: "Satoshi", sans-serif;
+        border: 2px solid rgb(71, 71, 71);
+        border-radius: 10px;
+        margin-top: 8px;
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-left: 5%;
+    }
+
+    .card {
+    padding: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 4px;
+    font-size: 11px;
+    }
+
+    .card p {
+        font-size: 11px;
+    }
+
+    .language-info h4{
+    margin: 0;
+    margin-bottom: 3px;
+    font-size: 14px;
+    }
+
+    .card-image {
+    width: 22px;
+    padding-right: 8px;
+    }
+    
+    .footer-container {
+        padding: 5px;
+        width: 60%;
+        margin-left: 5%;   
+    }
+
+    footer div .footer-titles {
+    font-size: 13px;
+    padding: 0;
+    margin:0;
+    color: rgb(189, 156, 67);
+    width: fit-content;
+    border-right: none;
+    }
+
+    .footer-container p {
+        margin: 0;
+        font-size: 10px;
+    }
+
+    .hero-image {
+        flex:0 0 350px;
+    }
+
+    .hero-image img{
+        width: 270px;
+        height: 370px;
+        margin-right: 0px;
+    }
+
+    .footer-card {
+        width: 15px;
+    }
+
 
 }
