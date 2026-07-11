@@ -31,7 +31,7 @@ nav {
     align-items: center;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 15px 35px;
+    padding: 10px 35px;
 }
 
 .nav-image {
@@ -78,6 +78,7 @@ nav {
     margin-left: 20px;
     padding: 0;
     margin-bottom: 0;
+    width: 40%;
 }
 
 .main-content p,section {
@@ -138,13 +139,13 @@ nav {
     border-left: 2px solid rgb(189, 156, 67);
     padding-left: 10px;
     font-family: "Satoshi", sans-serif;
-    margin-top: 0;
+    margin-top: 2px;
     margin-bottom: 10px;
 }
 
 #h3 {
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 20px;
     font-family: "Satoshi", sans-serif;
     width: fit-content;
@@ -222,7 +223,7 @@ nav {
     padding: 3px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-bottom: 4px;
+    margin-bottom: 6px;
     font-size: 13px;
     font-family: "Satoshi", sans-serif;
     background-color: rgb(34, 34, 34);
@@ -247,7 +248,7 @@ nav {
     flex: 1;
     margin-right: 5px;
     padding-top: 10px;
-    padding-bottom: 0;
+    padding-bottom: 4px;
     padding-right: 10px ;
     justify-content: flex-start;
 }
@@ -284,6 +285,7 @@ footer {
     border: 2px solid rgb(71, 71, 71);
     border-radius: 10px;
     width: 55%;
+    margin-top: 10px;
     margin-right: 0;
     margin-bottom: 0;
     margin-left: 50px;
@@ -334,11 +336,13 @@ footer .footer-card {
     margin: auto 0;
     padding-left: 30px;
     display:flex;
+    flex-direction: row;
     justify-content:space-between;
+    align-items: center;
 }
 
 .hero-image {
-    flex:0 0 400px;
+    flex: 40%px;
     display:flex;
     justify-content:flex-end;
     margin: 0;
@@ -698,6 +702,147 @@ footer .footer-card {
 
     .footer-card {
         width: 15px;
+    }
+
+
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+    
+    main {
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .nav-container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-container {
+        justify-content: center;
+    }
+
+    .nav-container p {
+        display: none;
+    }
+
+    #my-logo-image {
+        width: 50px;
+        margin-bottom: 15px;
+    }
+
+    .nav-image {
+        width: 35px;
+    }
+
+    #contact {
+        font-size: 13px;
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-content {
+        width: 100%;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    #hello {
+        justify-content: center;
+    }
+
+    #h3 {
+        justify-content: center;
+        font-size: 15px;
+    }
+
+    .my-name {
+        justify-content: center;
+    }
+
+    .about-container {
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        gap: 5px;
+    }
+
+    .cards-container {
+        width: 75%;
+    }
+
+    .my-name span, #gold{
+        font-size: 50px;
+    }
+
+    .about-me {
+        border-left: 2px solid rgb(189, 156, 67);
+        border-right: 2px solid rgb(189, 156, 67);
+        border-radius: 10px;
+        padding: 5px;
+        padding-left: 10px;
+        width: 70%;
+        font-size: 12px;
+    }
+
+    #projects, #cv {
+        padding: 3px;
+        font-size: 12px;
+    }
+
+    .rocket-and-download {
+        width: 20px;
+    }
+
+    .hero {
+        flex-direction: column;
+        justify-items: center;
+        gap: 20px
+    }
+
+    .hero-image {
+        width: 100%;
+        justify-content: center;
+        order: -1;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 90%;
+        margin-left: 4%;
+        margin-right: 800%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .footer-card {
+        width: 15px;
+        padding: 10px;
+    }
+
+    footer div .footer-titles {
+        font-size: 12px;
+    }
+
+    footer div p {
+        font-size: 10px;
     }
 
 
