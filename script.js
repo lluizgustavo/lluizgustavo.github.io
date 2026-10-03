@@ -3,6 +3,7 @@ const contact = document.querySelector("#contact");
 const myLogoImage = document.querySelector("#my-logo-image");
 const devWeb = document.getElementById("h3");
 const aboutMe = document.querySelector(".about-me");
+const cv = document.querySelector("#cv")
 
 
 const mouseOn = (event) => {
@@ -82,3 +83,12 @@ if (projectsBtn) {
     window.open("https://github.com/lluizgustavo?tab=repositories", "_blank");
   });
 }
+
+cv.addEventListener("click", () => {
+  const link = document.createElement("a");
+  link.href = "assets/Profile.pdf";
+  link.download = "Profile.pdf";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+});
